@@ -1,3 +1,10 @@
+## 2.0.1 (June 6, 2026)
+  - Added `yaml`, `yml`, `env` and `.env*` / `dockerfile` mappings to the Configuration icon
+  - Wired up the Markdown icon for `md`, `markdown`, `mdx`, `mdown`, `mkd`, `mdwn`
+  - Added `log`, `nfo` to the Text icon
+  - Added extra shells (`zsh`, `fish`, `ksh`) and shell rc files to the Console icon
+  - Added more database (`sqlite3`, `db`, `db3`, `s3db`), key (`p12`, `pfx`, `ppk`, `gpg`), certificate (`der`, `p7b`) and archive (`bz2`, `lz`, `lzma`, `z`, `cab`, `iso`, `dmg`) extensions
+
 ## 2.0.0 (May 3, 2024)
   - Rewrote package with gulp 5.0 and mjs
   - Added `mjs`, `cjs`, `mts`, `cts` to `js` and `ts` icons 

@@ -5,3 +5,6 @@ node_modules/**/*
 gulpfile.js
 yarn.lock
 *.vsix
+.claude/**
+CLAUDE.md
+VS2015_Image_Library/**
