@@ -1,3 +1,6 @@
+## 2.1.2 (June 7, 2026)
+  - Added the `.yml` variants (`chart.yml`, `values.yml`) to the Helm icon file associations for consistency with the existing `.yaml` mappings
+
 ## 2.1.1 (June 7, 2026)
   - Removed the Kubernetes manifest file associations from the Helm icon (e.g. `kustomization.yaml`, `skaffold.yaml`, `*.k8s.yaml`, `deployment.yaml`, `service.yaml`, …); the Helm icon now applies only to Helm chart files
 

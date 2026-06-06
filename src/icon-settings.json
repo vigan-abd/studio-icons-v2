@@ -673,8 +673,10 @@
 			],
 			"fileNames": [
 				"chart.yaml",
+				"chart.yml",
 				"chart.lock",
 				"values.yaml",
+				"values.yml",
 				"values.schema.json",
 				".helmignore"
 			]
