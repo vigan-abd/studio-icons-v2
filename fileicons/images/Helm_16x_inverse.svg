@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <style>
+    .icon-canvas-transparent{opacity:0;fill:#252526}
+    .icon-vs-out_x0020_{fill:none;stroke:#252526;stroke-linecap:square;stroke-linejoin:miter}
+    .azure-dark-blue{fill:none;stroke:#56B6E8;stroke-linecap:square;stroke-linejoin:miter}
+    .icon-vs-bg{fill:#C5C5C5}
+    .azure-light-blue{fill:#AEE8FA}
+  </style>
+  <path class="icon-canvas-transparent" d="M16 16H0V0h16v16z" id="canvas"/>
+  <g id="outline">
+    <circle class="icon-vs-out_x0020_" cx="8" cy="8" r="5.25" stroke-width="2.4"/>
+    <path class="icon-vs-out_x0020_" stroke-width="2.2" d="M8 1v3M8 12v3M1 8h3M12 8h3M3.05 3.05l2.1 2.1M10.85 10.85l2.1 2.1M12.95 3.05l-2.1 2.1M5.15 10.85l-2.1 2.1"/>
+    <circle class="icon-vs-out_x0020_" cx="8" cy="8" r="2" stroke-width="2.2"/>
+  </g>
+  <g id="iconBg">
+    <circle class="azure-dark-blue" cx="8" cy="8" r="5.25" stroke-width="1.25"/>
+    <path class="azure-dark-blue" stroke-width="1.1" d="M8 1v3M8 12v3M1 8h3M12 8h3M3.05 3.05l2.1 2.1M10.85 10.85l2.1 2.1M12.95 3.05l-2.1 2.1M5.15 10.85l-2.1 2.1"/>
+    <circle class="icon-vs-bg" cx="8" cy="8" r="2.25"/>
+    <circle class="azure-light-blue" cx="8" cy="8" r="1.15"/>
+  </g>
+</svg>

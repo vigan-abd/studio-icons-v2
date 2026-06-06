@@ -16,6 +16,10 @@
 		"jsOrange": "F16421",
 		"vbBlue": "00539C",
 		"tsOrange": "E04C06",
+		"yamlRed": "CB171E",
+		"dockerBlue": "3999C6",
+		"dockerBlueLight": "92E0F7",
+		"psBlue": "1BA1E2",
 		"gitOrange": "F05133",
 		"sassPurple": "CC6699",
 		"pyGreen": "879636",
@@ -45,6 +49,10 @@
 			"fsPurple": "C049DE",
 			"vbBlue": "0088FF",
 			"tsOrange": "FA7B41",
+			"yamlRed": "F0474E",
+			"dockerBlue": "56B6E8",
+			"dockerBlueLight": "AEE8FA",
+			"psBlue": "47C2F5",
 			"pyGreen": "B6C949",
 			"vsPurple": "D294E2",
 			"sassPurple": "FF80BF",
@@ -204,14 +212,10 @@
 			"fileExtensions": [
 				"config",
 				"conf",
-				"yaml",
-				"yml",
 				"env"
 			],
 			"fileNames": [
 				".editorconfig",
-				"dockerfile",
-				".dockerignore",
 				".env",
 				".env.local",
 				".env.development",
@@ -225,7 +229,6 @@
 				"cmd",
 				"sh",
 				"bat",
-				"ps1",
 				"zsh",
 				"fish",
 				"ksh"
@@ -639,10 +642,78 @@
 			"fileNames": []
 		},
 		{
-			"iconPath": "Parameter_16x.svg",
+			"iconPath": "RazorFile_16x.svg",
 			"fileExtensions": [
 				"cshtml",
 				"razor"
+			],
+			"fileNames": []
+		},
+		{
+			"iconPath": "Docker_16x.svg",
+			"fileExtensions": [
+				"dockerfile",
+				"dockerignore"
+			],
+			"fileNames": [
+				"dockerfile",
+				".dockerignore",
+				"docker-compose.yml",
+				"docker-compose.yaml",
+				"docker-compose.override.yml",
+				"docker-compose.override.yaml",
+				"compose.yml",
+				"compose.yaml"
+			]
+		},
+		{
+			"iconPath": "Helm_16x.svg",
+			"fileExtensions": [
+				"tpl",
+				"k8s.yaml",
+				"k8s.yml"
+			],
+			"fileNames": [
+				"chart.yaml",
+				"chart.lock",
+				"values.yaml",
+				"values.schema.json",
+				".helmignore",
+				"kustomization.yaml",
+				"kustomization.yml",
+				"skaffold.yaml",
+				"skaffold.yml",
+				"deployment.yaml",
+				"service.yaml",
+				"ingress.yaml",
+				"configmap.yaml",
+				"secret.yaml",
+				"namespace.yaml",
+				"pod.yaml",
+				"statefulset.yaml",
+				"daemonset.yaml",
+				"replicaset.yaml",
+				"job.yaml",
+				"cronjob.yaml",
+				"serviceaccount.yaml",
+				"role.yaml",
+				"rolebinding.yaml",
+				"clusterrole.yaml",
+				"clusterrolebinding.yaml",
+				"pvc.yaml",
+				"persistentvolume.yaml",
+				"hpa.yaml"
+			]
+		},
+		{
+			"iconPath": "PowerShellScript_16x.svg",
+			"fileExtensions": [
+				"ps1",
+				"psm1",
+				"psd1",
+				"ps1xml",
+				"pssc",
+				"psrc"
 			],
 			"fileNames": []
 		},
@@ -766,6 +837,14 @@
 			"iconPath": "StyleSheet_16x.svg",
 			"fileExtensions": [
 				"css"
+			],
+			"fileNames": []
+		},
+		{
+			"iconPath": "YAML_FileNode_16x.svg",
+			"fileExtensions": [
+				"yaml",
+				"yml"
 			],
 			"fileNames": []
 		},

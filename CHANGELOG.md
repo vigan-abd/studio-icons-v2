@@ -1,3 +1,11 @@
+## 2.1.0 (June 6, 2026)
+  - Added a custom YAML icon (bold "YML" lettering) for `yaml`, `yml` (moved off the Configuration icon)
+  - Added a Docker icon for `dockerfile`, `*.dockerfile`, `.dockerignore` and `docker-compose` / `compose` files
+  - Added a PowerShell icon for `ps1`, `psm1`, `psd1`, `ps1xml`, `pssc`, `psrc` (moved off the Console icon)
+  - Added a Razor icon for `cshtml`, `razor` (replacing the generic Parameter icon)
+  - Added a Helm icon for Helm charts (`Chart.yaml`, `Chart.lock`, `values.yaml`, `values.schema.json`, `.helmignore`, `.tpl`)
+  - Reused the Helm/wheel icon for Kubernetes manifests (`kustomization.yaml`, `skaffold.yaml`, `*.k8s.yaml`, and common kinds like `deployment.yaml`, `service.yaml`, `ingress.yaml`, `configmap.yaml`, …)
+
 ## 2.0.1 (June 6, 2026)
   - Added `yaml`, `yml`, `env` and `.env*` / `dockerfile` mappings to the Configuration icon
   - Wired up the Markdown icon for `md`, `markdown`, `mdx`, `mdown`, `mkd`, `mdwn`
