@@ -1,3 +1,6 @@
+## 2.1.1 (June 7, 2026)
+  - Removed the Kubernetes manifest file associations from the Helm icon (e.g. `kustomization.yaml`, `skaffold.yaml`, `*.k8s.yaml`, `deployment.yaml`, `service.yaml`, …); the Helm icon now applies only to Helm chart files
+
 ## 2.1.0 (June 6, 2026)
   - Added a custom YAML icon (bold "YML" lettering) for `yaml`, `yml` (moved off the Configuration icon)
   - Added a Docker icon for `dockerfile`, `*.dockerfile`, `.dockerignore` and `docker-compose` / `compose` files

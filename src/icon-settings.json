@@ -669,40 +669,14 @@
 		{
 			"iconPath": "Helm_16x.svg",
 			"fileExtensions": [
-				"tpl",
-				"k8s.yaml",
-				"k8s.yml"
+				"tpl"
 			],
 			"fileNames": [
 				"chart.yaml",
 				"chart.lock",
 				"values.yaml",
 				"values.schema.json",
-				".helmignore",
-				"kustomization.yaml",
-				"kustomization.yml",
-				"skaffold.yaml",
-				"skaffold.yml",
-				"deployment.yaml",
-				"service.yaml",
-				"ingress.yaml",
-				"configmap.yaml",
-				"secret.yaml",
-				"namespace.yaml",
-				"pod.yaml",
-				"statefulset.yaml",
-				"daemonset.yaml",
-				"replicaset.yaml",
-				"job.yaml",
-				"cronjob.yaml",
-				"serviceaccount.yaml",
-				"role.yaml",
-				"rolebinding.yaml",
-				"clusterrole.yaml",
-				"clusterrolebinding.yaml",
-				"pvc.yaml",
-				"persistentvolume.yaml",
-				"hpa.yaml"
+				".helmignore"
 			]
 		},
 		{
